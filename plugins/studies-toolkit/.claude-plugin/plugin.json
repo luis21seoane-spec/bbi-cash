@@ -1,7 +1,7 @@
 {
   "name": "studies-toolkit",
-  "description": "A team of skills for studies and reports: financial analysis, census/statistics, legal & commercial documents, and report building. Pairs with the built-in deep-research skill.",
-  "version": "0.1.0",
+  "description": "A team of skills for studies and reports: financial analysis, business-health monitoring with early warning, census/statistics, legal & commercial documents, and report building. Pairs with the built-in deep-research skill.",
+  "version": "0.2.0",
   "author": {
     "name": "Luis Seoane",
     "email": "luis21seoane@gmail.com"
