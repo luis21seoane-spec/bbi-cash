@@ -2,39 +2,56 @@
 
 Reusable, framework-agnostic Claude Code skills meant to be installed **globally**
 (in your personal `~/.claude/skills/` directory) so they're available across all your
-SaaS projects — not just this repo.
+SaaS projects — not just this repo. Every skill **auto-detects the project's stack**
+(Astro, Next.js, Vite, Rails, Django, etc.) and adapts, so you don't have to configure
+anything.
 
-## agent-browser
+## Team A — building SaaS (productivity + quality)
 
-Drives a real browser (Playwright) to open, screenshot, and verify any web app you're
-developing. Works with Astro, Next.js, Vite, Remix, Rails, Django, etc. Supports
-responsive viewports and sessions behind login.
+| Skill | What it does |
+| :--- | :--- |
+| `saas-scaffold` | Bootstrap/extend a SaaS with a production-ready structure, env, app shell |
+| `auth` | Signup, login, sessions, password reset, roles, protected routes (+ hardening) |
+| `payments` | Stripe subscriptions, plans, trials, idempotent webhooks, customer portal |
+| `database` | Schema design + safe, reversible migrations (don't lose data) |
+| `ui-components` | Consistent, accessible, professional UI and design-system patterns |
+| `e2e-testing` | Playwright tests for critical flows (signup, checkout, core feature) |
+| `agent-browser` | Drive a real browser to open, screenshot, and verify any web app |
+| `deploy-ci` | CI/CD, preview deploys, secret management, production deploys |
+| `seo-landing` | Landing pages that convert + technical SEO (metadata, OG, schema, perf) |
 
-### Install globally (available in every project)
+These pair with Claude Code's built-in `code-review`, `security-review`, `verify`, and
+`run` skills for automated quality control.
+
+## Install all of them globally (available in every project)
 
 ```sh
 mkdir -p ~/.claude/skills
-cp -r portable-skills/agent-browser ~/.claude/skills/
+cp -r portable-skills/* ~/.claude/skills/
 ```
 
-That's it. Open Claude Code in any project and ask things like *"open the dashboard and
-check the mobile layout"* — it will pick up the skill automatically. You can also invoke
-it explicitly with `/agent-browser`.
+Then open Claude Code in any project and just describe what you want
+(*"add login", "set up billing", "check the mobile layout"*) — the matching skill is
+picked up automatically. You can also invoke one explicitly, e.g. `/agent-browser`.
 
-### Or install for a single project (shared with your team via git)
+## Or install per-project (shared with your team via git)
 
 ```sh
 mkdir -p .claude/skills
-cp -r portable-skills/agent-browser .claude/skills/
+cp -r portable-skills/auth .claude/skills/     # one skill
+cp -r portable-skills/* .claude/skills/        # or all
 ```
 
-### First run
+## First run (for the browser/testing skills)
 
 ```sh
 npm install -D playwright
 npx playwright install chromium
 ```
 
-See `agent-browser/SKILL.md` for the full workflow (port autodetection, screenshots,
-and auth via `login.mjs` + `STORAGE=`).
+## Security note
+
+`agent-browser`'s `login.mjs` saves an authenticated session (cookies + localStorage) to
+a file like `/tmp/auth.json`. **Never commit it or share it** — it grants access to your
+logged-in account. The included `.gitignore` already excludes common auth/session files.
 </content>

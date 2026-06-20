@@ -1,0 +1,10 @@
+# Auth/session artifacts produced by agent-browser's login.mjs — never commit
+auth.json
+*.auth.json
+storage-state.json
+*.session.json
+
+# Screenshots / test artifacts
+*.png
+playwright-report/
+test-results/
