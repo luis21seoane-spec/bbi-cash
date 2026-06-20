@@ -1,18 +1,18 @@
 # audit-toolkit
 
-A team of Claude Code skills for **rigorous, standards-based, defensible audits** — built
-so the work is traceable, evidence-backed, and reproducible (i.e. *not questionable*).
-Output in Spanish by default.
+A team of Claude Code skills for **rigorous, standards-based, defensible audits**, tuned to
+**U.S. standards** (US GAAP, AICPA AU-C / PCAOB AS) — built so the work is traceable,
+evidence-backed, and reproducible (i.e. *not questionable*). Output in Spanish by default.
 
 ## Skills included
 
-| Skill | What it does | Standard |
+| Skill | What it does | Standard (US) |
 | :--- | :--- | :--- |
-| `auditoria-financiera` | Master audit methodology: planning, materiality, risk, sampling, substantive testing, evidence-backed findings | NIA/ISA (IAASB) |
-| `control-interno` | Internal control evaluation & testing; deficiency classification | COSO 2013 |
+| `auditoria-financiera` | Master audit methodology: planning, materiality, risk, sampling, substantive testing, evidence-backed findings | AICPA AU-C / PCAOB AS; US GAAP |
+| `control-interno` | Internal control evaluation & testing; deficiency classification | COSO 2013 / SOX §404 ICFR |
 | `conciliaciones` | Reconciliations & substantive checks (bank, AR/AP, cash, inventory…) and discrepancy classification | — |
-| `deteccion-fraude` | Fraud risk & indicator testing (Benford, unusual journal entries, AML/cash red flags) | NIA/ISA 240 |
-| `papeles-trabajo` | Working papers & audit trail — the documentation that makes the audit defensible | NIA/ISA 230 |
+| `deteccion-fraude` | Fraud risk & indicator testing (Benford, unusual journal entries, AML/cash red flags) | AU-C 240 / AS 2401; BSA/FinCEN |
+| `papeles-trabajo` | Working papers & audit trail — the documentation that makes the audit defensible | AU-C 230 / PCAOB AS 1215 |
 
 Pairs with `financieros`, `salud-negocio`, and `report-builder` (studies-toolkit).
 

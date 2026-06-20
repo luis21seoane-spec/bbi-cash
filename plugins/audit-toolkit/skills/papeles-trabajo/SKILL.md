@@ -15,10 +15,11 @@ evidence. Used across all `audit-toolkit` skills.
 ## Output language
 Default to **Spanish** unless the user writes in another language.
 
-## Norma de referencia
-**NIA/ISA 230 — Documentación de auditoría**: suficiente para que un auditor experimentado
-sin relación previa entienda la naturaleza, oportunidad y alcance de los procedimientos, los
-resultados y la evidencia, y las conclusiones y juicios significativos.
+## Norma de referencia (EE.UU.)
+**AU-C 230 (AICPA) / PCAOB AS 1215 — Documentación de auditoría**: suficiente para que un
+auditor experimentado sin relación previa entienda la naturaleza, oportunidad y alcance de
+los procedimientos, los resultados y la evidencia, y las conclusiones y juicios
+significativos.
 
 ## Estructura de cada papel de trabajo
 - **Encabezado**: entidad, periodo, área/cuenta, objetivo del procedimiento.
@@ -37,7 +38,8 @@ Cualquier saldo debe poder recorrerse en ambos sentidos.
 ## Indexación y revisión
 - Índice/numeración consistente (p. ej. A=caja, B=bancos, C=CxC…).
 - Notas de revisión resueltas antes de concluir.
-- Política de **retención** y resguardo (acceso controlado, versiones).
+- Política de **retención** y resguardo (acceso controlado, versiones). En EE.UU. la
+  retención típica es **7 años** (5 años AICPA; 7 años para emisores bajo SOX/PCAOB AS 1215).
 
 ## Checklist de defensibilidad
 - [ ] Cada hallazgo referencia su evidencia

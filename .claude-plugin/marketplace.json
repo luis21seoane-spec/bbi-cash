@@ -34,10 +34,10 @@
     },
     {
       "name": "audit-toolkit",
-      "description": "A team of skills for rigorous, standards-based, defensible audits: financial audit methodology (NIA/ISA), internal control (COSO), reconciliations, fraud detection (ISA 240), and working papers / audit trail (ISA 230). Output in Spanish by default.",
+      "description": "A team of skills for rigorous, standards-based, defensible audits tuned to U.S. standards (US GAAP, AICPA AU-C / PCAOB AS): financial audit methodology, internal control (COSO / SOX ICFR), reconciliations, fraud detection (AU-C 240, BSA/FinCEN AML), and working papers / audit trail (AU-C 230 / AS 1215). Output in Spanish by default.",
       "source": "./plugins/audit-toolkit",
       "category": "productivity",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Luis Seoane",
         "email": "luis21seoane@gmail.com"

@@ -18,9 +18,9 @@ Default to **Spanish** unless the user writes in another language.
 
 ## Marco
 - **Triángulo del fraude**: incentivo/presión, oportunidad, racionalización.
-- **NIA/ISA 240**: responsabilidad del auditor frente al fraude; escepticismo profesional;
-  presunción de riesgo en reconocimiento de ingresos y en *override* de controles por la
-  gerencia.
+- **AU-C 240 (AICPA) / PCAOB AS 2401**: responsabilidad del auditor frente al fraude;
+  escepticismo profesional; presunción de riesgo en reconocimiento de ingresos y en
+  *override* de controles por la gerencia.
 
 ## Pruebas analíticas e indicadores
 - **Asientos de diario inusuales** (foco clásico de *management override*): montos redondos,
@@ -33,10 +33,14 @@ Default to **Spanish** unless the user writes in another language.
   *channel stuffing*, juegos de **corte**.
 - **Gastos**: reembolsos inflados, partidas personales, sin soporte.
 
-## Antilavado / efectivo (negocios de efectivo)
-- **Estructuración** (montos justo bajo umbrales de reporte), volúmenes de efectivo
-  inusuales, KYC/identificación de clientes incompleta, terceros sin relación.
-- Verifica obligaciones de **debida diligencia y reporte** según jurisdicción.
+## Antilavado / efectivo — EE.UU. (Bank Secrecy Act / FinCEN)
+- **CTR (Currency Transaction Report)**: transacciones en efectivo > **US$10,000**.
+- **SAR (Suspicious Activity Report)**: actividad sospechosa.
+- **Estructuración** (dividir montos para evitar el umbral de US$10k) — prohibida por
+  **31 U.S.C. §5324**.
+- Volúmenes de efectivo inusuales, KYC/CIP incompleto, terceros sin relación.
+- Verifica las obligaciones de **debida diligencia y reporte** aplicables (BSA/FinCEN) y
+  apóyate en `legal-comercial` y en un especialista de cumplimiento.
 
 ## Procedimiento
 1. Evalúa factores de riesgo de fraude (triángulo) por proceso.

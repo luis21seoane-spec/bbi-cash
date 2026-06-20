@@ -7,7 +7,9 @@ description: Evaluate and test internal controls using the COSO framework — co
 
 Assess whether the entity's controls actually prevent or detect errors and fraud, and
 document deficiencies in a defensible way. Feeds the risk assessment in
-`auditoria-financiera`.
+`auditoria-financiera`. US context: **COSO 2013** is the framework, and for SEC issuers
+this supports **ICFR / Sarbanes-Oxley (SOX) §404** and the auditor's work under
+**AU-C 315/940** (private) or **PCAOB AS 2201** (integrated audit of ICFR).
 
 > Toda evaluación se basa en evidencia (walkthroughs, muestras, documentos). No afirmes que
 > un control "funciona" sin haberlo probado y documentado.
@@ -35,7 +37,8 @@ Default to **Spanish** unless the user writes in another language.
 5. **Clasifica deficiencias**:
    - *Deficiencia* — control falta o no opera.
    - *Deficiencia significativa* — merece atención de los responsables de gobierno.
-   - *Debilidad material* — posibilidad razonable de incorrección material no prevenida.
+   - *Debilidad material (material weakness)* — posibilidad razonable de que una
+     incorrección material no sea prevenida o detectada a tiempo (terminología SOX/PCAOB).
 
 ## Entregable: matriz de control
 | Proceso | Riesgo | Aserción | Control clave | Diseño | Prueba | Resultado | Deficiencia | Remediación |
