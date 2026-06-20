@@ -55,6 +55,18 @@
         "email": "luis21seoane@gmail.com"
       },
       "license": "MIT"
+    },
+    {
+      "name": "growth-toolkit",
+      "description": "Growth & distribution skills for founders who sell without a marketing team: LinkedIn comment intelligence / social selling (which conversations to enter, what to comment to earn opinion and profile visits) plus a manual tracking habit. Human-in-the-loop by design (you post, never a bot) to stay safe from automation bans. Output in Spanish by default.",
+      "source": "./plugins/growth-toolkit",
+      "category": "productivity",
+      "version": "0.1.0",
+      "author": {
+        "name": "Luis Seoane",
+        "email": "luis21seoane@gmail.com"
+      },
+      "license": "MIT"
     }
   ]
 }

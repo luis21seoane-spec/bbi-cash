@@ -1,0 +1,12 @@
+{
+  "name": "growth-toolkit",
+  "description": "A team of growth & distribution skills for founders who sell without a marketing team: LinkedIn comment intelligence / social selling (which conversations to enter, what to comment to earn opinion and profile visits), and a manual tracking habit to measure what works. Human-in-the-loop by design (you post, never a bot) to stay safe from automation bans. Output in Spanish by default.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Luis Seoane",
+    "email": "luis21seoane@gmail.com"
+  },
+  "homepage": "https://github.com/luis21seoane-spec/bbi-cash",
+  "repository": "https://github.com/luis21seoane-spec/bbi-cash",
+  "license": "MIT"
+}
