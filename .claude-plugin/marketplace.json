@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "seoane-tools",
+  "version": "0.1.0",
+  "description": "Luis Seoane's Claude Code plugin marketplace — reusable skills for building SaaS and running studies.",
+  "owner": {
+    "name": "Luis Seoane",
+    "email": "luis21seoane@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "saas-toolkit",
+      "description": "A team of stack-detecting skills for building professional SaaS: scaffolding, auth, payments, database, UI, e2e testing, browser verification, CI/CD, and SEO/landing pages.",
+      "source": "./plugins/saas-toolkit",
+      "category": "development",
+      "version": "0.1.0",
+      "author": {
+        "name": "Luis Seoane",
+        "email": "luis21seoane@gmail.com"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "studies-toolkit",
+      "description": "A team of skills for studies and reports: financial analysis, census/statistics, legal & commercial documents, and report building. Pairs with the built-in deep-research skill.",
+      "source": "./plugins/studies-toolkit",
+      "category": "productivity",
+      "version": "0.1.0",
+      "author": {
+        "name": "Luis Seoane",
+        "email": "luis21seoane@gmail.com"
+      },
+      "license": "MIT"
+    }
+  ]
+}

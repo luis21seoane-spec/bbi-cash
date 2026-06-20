@@ -1,0 +1,12 @@
+{
+  "name": "saas-toolkit",
+  "description": "A team of stack-detecting skills for building professional SaaS: scaffolding, auth, payments, database, UI, e2e testing, browser verification, CI/CD, and SEO/landing pages.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Luis Seoane",
+    "email": "luis21seoane@gmail.com"
+  },
+  "homepage": "https://github.com/luis21seoane-spec/bbi-cash",
+  "repository": "https://github.com/luis21seoane-spec/bbi-cash",
+  "license": "MIT"
+}
