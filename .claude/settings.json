@@ -1,0 +1,15 @@
+{
+  "extraKnownMarketplaces": {
+    "seoane-tools": {
+      "source": {
+        "source": "github",
+        "repo": "luis21seoane-spec/bbi-cash"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "saas-toolkit@seoane-tools": true,
+    "studies-toolkit@seoane-tools": true
+  }
+}
