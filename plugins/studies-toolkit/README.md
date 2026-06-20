@@ -8,6 +8,7 @@ your language (default Spanish).
 | Skill | What it does |
 | :--- | :--- |
 | `financieros` | Financial analysis: SaaS metrics (MRR/ARR/churn/CAC/LTV/runway), valuation (DCF/multiples), projections, market/company analysis |
+| `salud-negocio` | Business-health monitoring: efficiency ratios, trend charts, and an early-warning semáforo that detects deterioration (rising costs, margin compression, shrinking runway) |
 | `censos-estadisticas` | Source, clean, and analyze public/statistical data; descriptive stats and visualizations; region-aware |
 | `legal-comercial` | Draft/review ToS, Privacy Policy, GDPR/compliance, basic contracts (not legal advice) |
 | `report-builder` | Turn analysis into a polished report/study (Markdown, HTML, PDF) with sources |

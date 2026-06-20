@@ -22,10 +22,22 @@
     },
     {
       "name": "studies-toolkit",
-      "description": "A team of skills for studies and reports: financial analysis, census/statistics, legal & commercial documents, and report building. Pairs with the built-in deep-research skill.",
+      "description": "A team of skills for studies and reports: financial analysis, business-health monitoring with early warning, census/statistics, legal & commercial documents, and report building. Pairs with the built-in deep-research skill.",
       "source": "./plugins/studies-toolkit",
       "category": "productivity",
-      "version": "0.1.0",
+      "version": "0.2.0",
+      "author": {
+        "name": "Luis Seoane",
+        "email": "luis21seoane@gmail.com"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "audit-toolkit",
+      "description": "A team of skills for rigorous, standards-based, defensible audits tuned to U.S. standards (US GAAP, AICPA AU-C / PCAOB AS): financial audit methodology, internal control (COSO / SOX ICFR), reconciliations, fraud detection (AU-C 240, BSA/FinCEN AML), and working papers / audit trail (AU-C 230 / AS 1215). Output in Spanish by default.",
+      "source": "./plugins/audit-toolkit",
+      "category": "productivity",
+      "version": "0.2.0",
       "author": {
         "name": "Luis Seoane",
         "email": "luis21seoane@gmail.com"
