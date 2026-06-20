@@ -10,6 +10,7 @@
   },
   "enabledPlugins": {
     "saas-toolkit@seoane-tools": true,
-    "studies-toolkit@seoane-tools": true
+    "studies-toolkit@seoane-tools": true,
+    "audit-toolkit@seoane-tools": true
   }
 }
