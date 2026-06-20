@@ -1,0 +1,12 @@
+{
+  "name": "writing-toolkit",
+  "description": "A team of writing skills with a modern, engaging voice and subtle, sharp touches when warranted: general writing/rewriting, copywriting, social content, and style editing. Output in Spanish by default.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Luis Seoane",
+    "email": "luis21seoane@gmail.com"
+  },
+  "homepage": "https://github.com/luis21seoane-spec/bbi-cash",
+  "repository": "https://github.com/luis21seoane-spec/bbi-cash",
+  "license": "MIT"
+}

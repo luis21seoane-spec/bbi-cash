@@ -43,6 +43,18 @@
         "email": "luis21seoane@gmail.com"
       },
       "license": "MIT"
+    },
+    {
+      "name": "writing-toolkit",
+      "description": "A team of writing skills with a modern, engaging voice and subtle, sharp touches when warranted: general writing/rewriting, copywriting, social content, and style editing. Output in Spanish by default.",
+      "source": "./plugins/writing-toolkit",
+      "category": "productivity",
+      "version": "0.1.0",
+      "author": {
+        "name": "Luis Seoane",
+        "email": "luis21seoane@gmail.com"
+      },
+      "license": "MIT"
     }
   ]
 }
