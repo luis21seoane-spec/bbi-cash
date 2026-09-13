@@ -1,4 +1,32 @@
-# Astro Starter Kit: Minimal
+# BBI Cash — sitio público
+
+`www.bbicash.com` · Astro trilingüe (en / es / pt) · desplegado en Vercel.
+
+> ⚠️ **No confundir con `bbi-cash-crm`.** Ése es **LOCUS**, el CRM con login que sirve
+> `locus4you.app`. Éste es el sitio de venta que ve cualquiera. Los nombres se parecen
+> y el error caro es tocar el que no era.
+
+## Analytics — Umami Cloud (13-sep-2026)
+
+| | |
+|---|---|
+| Cuenta | `bbicashinfo@gmail.com` en `cloud.umami.is` — **separada** de la de itbstudio, para que los datos de BBI no se mezclen con los del portfolio |
+| Sitio | «BBI cash» · `www.bbicash.com` |
+| Website ID | `d1004eb3-23f6-48cc-816e-0e8bf55d624d` |
+| Dónde vive | `src/layouts/Layout.astro`, en el `<head>` del layout raíz → sale en las tres páginas |
+
+**Por qué Umami y no Vercel Web Analytics:** en plan Pro, Vercel no trae eventos incluidos
+—cobra US$ 0,03 cada 1.000 contra el crédito, compartido entre todos los proyectos— y la
+cuenta ya está excedida en Fluid Active CPU. Umami Hobby es $0 por 100k eventos/mes y no
+toca ese crédito. Además es cookieless: no hace falta banner de cookies.
+Decisión completa: `itb-studio-app/docs/SUSCRIPCIONES-Y-ACCESOS.md` §1.
+
+Dos detalles que importan si alguien lo toca: `is:inline` hace que Astro lo emita tal cual
+en vez de pasarlo por su bundler, y `defer` evita que bloquee el render.
+
+---
+
+## Referencia del starter de Astro
 
 ```sh
 npm create astro@latest -- --template minimal
