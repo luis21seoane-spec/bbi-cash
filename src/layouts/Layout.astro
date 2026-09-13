@@ -20,6 +20,26 @@ const { title, description, lang = 'en' } = Astro.props;
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
+    <!--
+      Analytics · Umami Cloud (13-sep-2026). Cuenta bbicashinfo@gmail.com, SEPARADA
+      de la de itbstudio: los datos de BBI no se mezclan con los del portfolio.
+      Sitio «BBI cash» · website-id d1004eb3-23f6-48cc-816e-0e8bf55d624d
+
+      Por qué Umami y no Vercel Web Analytics: en plan Pro, Vercel NO trae eventos
+      incluidos —cobra US$ 0,03 cada 1.000 contra el crédito, compartido entre TODOS
+      los proyectos— y la cuenta ya está excedida en Fluid Active CPU. Umami Hobby es
+      $0 por 100k eventos/mes y no toca ese crédito. Además es cookieless: no hace
+      falta banner de cookies. Decisión y cuentas: itb-studio-app/docs/SUSCRIPCIONES-Y-ACCESOS.md §1.
+
+      `defer` para que no bloquee el render: es una página de venta, la primera
+      pintura importa más que contar la visita 200 ms antes.
+    -->
+    <script
+      defer
+      src="https://cloud.umami.is/script.js"
+      data-website-id="d1004eb3-23f6-48cc-816e-0e8bf55d624d"
+      is:inline
+    ></script>
   </head>
   <body>
     <slot />
